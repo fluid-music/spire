@@ -1,0 +1,27 @@
+{
+  "name": "@fluid-music/spire",
+  "version": "0.0.1",
+  "description": "Spire 1.5 VST2 Plugin Adapter",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen": "node ./gen-spire-vst2.js",
+    "prepublishOnly": "npm run gen && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fluid-music/spire.git"
+  },
+  "keywords": [
+    "fluid-music"
+  ],
+  "author": "Charles Holbrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fluid-music/spire/issues"
+  },
+  "homepage": "https://github.com/fluid-music/spire#readme",
+  "devDependencies": {
+    "fluid-music": "file:../fluid-music"
+  }
+}
