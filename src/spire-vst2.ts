@@ -5266,7 +5266,7 @@ export class Spire15Vst2 extends FluidPlugin {
     public parameters : Spire15Vst2Parameters = {},
   ) {
     super(pluginName, pluginType)
-    this.vst2.uid = 0
+    this.vst2.uid = 1399878194
     this.vst2.vendor = 'Reveal Sound'
     this.numAudioInputChannels = 0
     this.numAudioOutputChannels = 2
