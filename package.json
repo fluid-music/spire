@@ -23,5 +23,8 @@
   "homepage": "https://github.com/fluid-music/spire#readme",
   "devDependencies": {
     "fluid-music": "file:../fluid-music"
+  },
+  "peerDependencies": {
+    "fluid-music": "0.9||0.10||^1.0.0"
   }
 }
