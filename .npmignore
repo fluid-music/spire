@@ -1,3 +1,5 @@
 gen-spire-vst2.js
 vst2-report.js
 src
+get-param-report.js
+vst2-param-report.js
